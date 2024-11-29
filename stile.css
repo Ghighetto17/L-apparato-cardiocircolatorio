@@ -1,0 +1,10 @@
+h1,h2{
+    font-variant: small-caps;
+}
+p,ul{font-size: 25px;}
+.visibile{
+    display: unset;
+}
+.invisibile{
+    display: none;
+}
