@@ -1,0 +1,101 @@
+#contenitore{
+    width: 100%; 
+    height: 200px;
+}
+h1{
+    font-size: 95px; 
+    margin-top: -15px; 
+    float: left; 
+    margin-bottom: -15px;
+}
+img{
+    float: right; 
+    margin-left: 5px;
+}
+#home{
+    width: 100px;
+    float:inline-end;
+}
+@media screen and (max-width: 1450px) {
+    #contenitore{
+        width: 100%; 
+        height: 120px;
+    }
+    h1{
+        font-size: 65px;
+        margin-top: -15px; 
+        float: left; 
+        margin-bottom: -25px;
+    }
+    #feto{
+        float: right; 
+        margin-left: 5px;
+        width: 40%;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 950px) {
+    #contenitore{
+        width: 100%; 
+        height: 110px;
+    }
+    #home{
+        margin-top: -100px;
+    }
+    h1{
+        font-size: 55px;
+        margin-top: -15px; 
+        float: left; 
+        margin-bottom: -25px;
+    }
+    #feto{
+        float: right; 
+        margin-left: 5px;
+        width: 40%;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 700px) {
+    #contenitore{
+        width: 100%; 
+        height: 100px;
+    }
+    h1{
+        font-size: 45px;
+        margin-top: -5px; 
+        float: left; 
+        margin-bottom: -20px;
+    }
+    #home{
+        margin-top: -80px;
+        width: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+    #feto{
+        width: 220px;
+    }
+}
+@media screen and (max-width: 450px) {
+    #contenitore{
+        width: 100%; 
+        height: 100px;
+    }
+    h1{
+        font-size: 35px;
+        margin-top: -5px; 
+        float: left; 
+        margin-bottom: -20px;
+    }
+    #home{
+        margin-top: -60px;
+        width: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+    #feto{
+        width: 190px;
+    }
+}

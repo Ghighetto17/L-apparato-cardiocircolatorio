@@ -1,0 +1,104 @@
+table{
+    width: 100%;   
+}
+td{
+    padding: 5px;
+    text-align: center;
+}
+h2{font-size: 40px;}
+p,ul{font-size: 25px;}
+#titolo{
+    font-size: 75px; 
+    margin-top: -15px; 
+    float: left;
+}
+#contenitore{
+    width: 100%; 
+    height: 170px;
+}
+#home{
+    width: 100px;
+    float:inline-end;
+}
+#immcuore{
+    float: right;
+}
+#immsangue{
+    float: right;
+}
+@media screen and (max-width: 1450px) {
+    #titolo{
+        font-size: 55px; 
+        margin-top: -10px; 
+        float: left;
+    }
+    #contenitore{
+        width: 100%; 
+        height: 120px;
+    }
+}
+@media screen and (max-width: 700px) {
+    #titolo{
+        font-size: 35px; 
+        margin-top: -10px; 
+        float: left;
+    }
+    #contenitore{
+        width: 100%; 
+        height: 90px;
+    }
+    #home{
+        width: 50px;
+    }
+    #cuore,#vasi,#linfa{
+        width: 100px;
+    }
+    td{
+        padding: 0px;
+    }
+    .immagini{
+        width: 80px;
+    }
+    #vasi2{
+        margin-bottom: 0px;
+    }
+    #immcuore{
+        width: 210px;
+    }
+    #immsangue{
+        display: none;
+    }
+}
+@media screen and (max-width: 450px) {
+    #titolo{
+        font-size: 35px; 
+        margin-top: -10px; 
+        float: left;
+    }
+    #contenitore{
+        width: 100%; 
+        height: 90px;
+    }
+    #home{
+        margin-top: -130px;
+        width: 50px;
+    }
+    #cuore,#vasi,#linfa{
+        width: 100px;
+    }
+    td{
+        padding: 0px;
+    }
+    .immagini{
+        width: 80px;
+    }
+    #vasi2{
+        margin-bottom: 0px;
+    }
+    #immcuore{
+        width: 210px;
+    }
+    #immsangue{
+        display: none;
+    }
+}

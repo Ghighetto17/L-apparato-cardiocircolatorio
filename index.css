@@ -1,0 +1,32 @@
+h1{
+    font-size: 100px; 
+    width: 100%;
+}
+ul,span,p{
+    font-size: 30px;
+}
+img{
+    width: 500px; 
+    float: right;
+}
+@media screen and (max-width: 1450px) {
+    h1{
+    font-size: 80px; 
+    }
+    img{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px) {
+    h1{
+        font-size: 60px; 
+    }
+}
+@media screen and (max-width: 450px) {
+    h1{
+        font-size: 40px; 
+    }
+    ul,span,p{
+        font-size: 20px;
+    }
+}
